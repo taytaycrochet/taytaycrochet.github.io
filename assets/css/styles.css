@@ -84,6 +84,50 @@
   section h3 {
     margin-top: 0;
   }
+
+  /* === Letter from the Author === */
+.letter {
+    margin-top: 2rem;
+  }
+  
+  .letter p + p {
+    margin-top: 0.75rem;
+  }
+  
+  /* === Posts / Essay Cards === */
+  .posts {
+    margin-top: 2rem;
+  }
+  
+  .post-card {
+    margin-top: 1rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.75rem;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .post-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-card p {
+    margin: 0 0 0.75rem 0;
+    color: #4b5563;
+  }
+  
+  .post-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #6366f1;
+  }
+  
+  .post-link:hover {
+    text-decoration: underline;
+  }
+  
   
   /* === Footer === */
   footer {
