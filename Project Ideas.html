@@ -22,9 +22,47 @@
   <main>
     <section>
       <h1>Project Ideas</h1>
-      <p>Content coming soon.</p>
+      <p>
+        A running list of things I’d like to make—some easy and soothing, some a little
+        unhinged. Use the filters to find something that matches your energy level.
+      </p>
+  
+      <!-- Filter bar -->
+      <div class="filter-bar">
+        <button class="filter-button active" data-filter="all">All</button>
+        <button class="filter-button" data-filter="easy">Easy</button>
+        <button class="filter-button" data-filter="medium">Medium</button>
+        <button class="filter-button" data-filter="hard">Hard</button>
+      </div>
+  
+      <!-- Ideas grid -->
+      <div class="gallery-grid">
+        <!-- Example Easy idea -->
+        <article class="item-card" data-difficulty="easy">
+          <h3>Granny Square Coasters</h3>
+          <span class="difficulty-pill difficulty-easy">Easy</span>
+          <p>Quick, low-commitment, perfect for using up scrap yarn.</p>
+        </article>
+  
+        <!-- Example Medium idea -->
+        <article class="item-card" data-difficulty="medium">
+          <h3>Striped Throw Blanket</h3>
+          <span class="difficulty-pill difficulty-medium">Medium</span>
+          <p>Repeating rows, some counting, a good “TV project” if you’re paying light attention.</p>
+        </article>
+  
+        <!-- Example Hard idea -->
+        <article class="item-card" data-difficulty="hard">
+          <h3>Fitted Cardigan</h3>
+          <span class="difficulty-pill difficulty-hard">Hard</span>
+          <p>Shaping, seaming, and commitment. Very satisfying if you see it through.</p>
+        </article>
+  
+        <!-- Add more ideas later with data-difficulty="easy|medium|hard" -->
+      </div>
     </section>
   </main>
+  
 
   <footer>
     <p>© 2025 TayTay Crochet</p>
