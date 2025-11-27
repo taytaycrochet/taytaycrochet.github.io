@@ -269,11 +269,19 @@
   }  
   
   .photo-grid img {
-    width: 100%;
+    flex-shrink: 0;
+    width: 200px;        /* square width */
+    height: 200px;       /* square height */
+    object-fit: cover;   /* important: crops while keeping composition */
     border-radius: 0.5rem;
-    object-fit: cover;
-    max-height: 240px;
     border: 1px solid #d1d5db;
   }
+
+  .photo-grid img:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease;
+  }
+  
+  
   
   
