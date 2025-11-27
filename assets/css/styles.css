@@ -46,7 +46,7 @@
   }
   
   .main-nav a:hover {
-    background-color: #10b981; /* soft purple hover */
+    background-color: #71edbe; /* soft purple hover */
     color: #111827;
   }
   
@@ -235,7 +235,7 @@
   
   .filter-button.active {
     background: #6366f1;
-    border-color: #b9101000;
+    border-color: #71edbe;
     color: white;
   }
   
@@ -271,15 +271,6 @@
   object-fit: cover;
   border: 1px solid #d1d5db;
   }  
-  
-  .photo-grid img {
-    flex-shrink: 0;
-    width: 200px;        /* square width */
-    height: 200px;       /* square height */
-    object-fit: cover;   /* important: crops while keeping composition */
-    border-radius: 0.5rem;
-    border: 1px solid #d1d5db;
-  }
 
   .photo-grid img:hover {
     transform: scale(1.03);
@@ -304,7 +295,7 @@
   }
   
   .cta-button:hover {
-    background: #b9101000;
+    background: #71edbe;
   }
   
   main section {
@@ -328,7 +319,7 @@
   }
 
   h1, h2 {
-    color: #b9101000;
+    color: #71edbe;
   }
   
   
