@@ -46,7 +46,7 @@
   }
   
   .main-nav a:hover {
-    background-color: #ede9fe; /* soft purple hover */
+    background-color: #10b981; /* soft purple hover */
     color: #111827;
   }
   
@@ -235,7 +235,7 @@
   
   .filter-button.active {
     background: #6366f1;
-    border-color: #10b981;
+    border-color: #b9101000;
     color: white;
   }
   
@@ -304,7 +304,7 @@
   }
   
   .cta-button:hover {
-    background: #10b981;
+    background: #b9101000;
   }
   
   main section {
